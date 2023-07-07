@@ -26,6 +26,13 @@ def reg (request):
     return render(request,registration.html)
 
 
+
+
+
+
+
+
+
 def displayvw(request):
     obj=Student.object.all()
     return render(render,'display1.html',{'data':obj})
